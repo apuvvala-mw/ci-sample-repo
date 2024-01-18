@@ -10,4 +10,6 @@ plan("mtest") =  TestTask("tests",SourceFiles="code");
 
 plan("clean") = CleanTask;
 
+plan.DefaultTasks = "mtest";
+
 end
